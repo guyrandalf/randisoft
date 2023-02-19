@@ -1,0 +1,33 @@
+.header {
+    background: #ffffff;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    font-family: Lato, sans-serif;
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.navbar-brand img {    
+    max-width: 200px;    
+}
+
+.navbar-menu ul > li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}

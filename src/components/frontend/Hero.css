@@ -1,0 +1,45 @@
+.hero {
+    background: url(../../assets/images/hero.jpg);
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hero-info {
+    color: #06083c;
+    /* width: 500px; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-msg {
+    background: rgba(255, 255, 255, .8);
+    padding: 40px;
+    height: 50%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-msg h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 4px;
+}
+
+.hero-img {
+    background: rgba(255, 255, 255, .8);
+    height: 820px;
+}
+
+.hero-img img {
+    height: 100%;
+}
